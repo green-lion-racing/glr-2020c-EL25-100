@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Tobias\sciebo\20Technik_GLR2020\20C\EL - Electrical\25 - Relays\20C-EL25-100 - Scematic\20C-EL25-100\20C-EL25-100.sch</source>
+    <date>23.11.2019 11:46:34</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>20C-EL25-100.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_Molex:Molex_Mega-Fit_76825-0004_2x02_P5.70mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D877579</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D87A1D0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_PLCC-2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D87B8F9</tstamp>
+    </comp>
+    <comp ref="RLY1">
+      <value>JSM1-12V-5</value>
+      <footprint>digikey-footprints:Relay_JSM1-12V-5</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf</datasheet>
+      <fields>
+        <field name="Category">Relays</field>
+        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/panasonic-electric-works/JSM1-12V-5/255-1240-ND/274764</field>
+        <field name="Description">RELAY AUTOMOTIVE SPDT 15A 12V</field>
+        <field name="Digi-Key_PN">255-1240-ND</field>
+        <field name="Family">Automotive Relays</field>
+        <field name="MPN">JSM1-12V-5</field>
+        <field name="Manufacturer">Panasonic Electric Works</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="20C-EL25-100-rescue" part="JSM1-12V-5-dk_Automotive-Relays" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D87DD9A</tstamp>
+    </comp>
+    <comp ref="RLY2">
+      <value>JSM1-12V-5</value>
+      <footprint>digikey-footprints:Relay_JSM1-12V-5</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf</datasheet>
+      <fields>
+        <field name="Category">Relays</field>
+        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/panasonic-electric-works/JSM1-12V-5/255-1240-ND/274764</field>
+        <field name="Description">RELAY AUTOMOTIVE SPDT 15A 12V</field>
+        <field name="Digi-Key_PN">255-1240-ND</field>
+        <field name="Family">Automotive Relays</field>
+        <field name="MPN">JSM1-12V-5</field>
+        <field name="Manufacturer">Panasonic Electric Works</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="20C-EL25-100-rescue" part="JSM1-12V-5-dk_Automotive-Relays" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D88135E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="20C-EL25-100-rescue" part="JSM1-12V-5-dk_Automotive-Relays">
+      <fields>
+        <field name="Reference">RLY</field>
+        <field name="Value">JSM1-12V-5-dk_Automotive-Relays</field>
+        <field name="Footprint">digikey-footprints:Relay_JSM1-12V-5</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf</field>
+        <field name="Digi-Key_PN">255-1240-ND</field>
+        <field name="MPN">JSM1-12V-5</field>
+        <field name="Category">Relays</field>
+        <field name="Family">Automotive Relays</field>
+        <field name="DK_Datasheet_Link">https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/panasonic-electric-works/JSM1-12V-5/255-1240-ND/274764</field>
+        <field name="Description">RELAY AUTOMOTIVE SPDT 15A 12V</field>
+        <field name="Manufacturer">Panasonic Electric Works</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="NO" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="20C-EL25-100-rescue">
+      <uri>C:\Users\Tobias\sciebo\20Technik_GLR2020\20C\EL - Electrical\25 - Relays\20C-EL25-100 - Scematic\20C-EL25-100/20C-EL25-100-rescue.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="RLY2" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="RLY2" pin="3"/>
+      <node ref="RLY1" pin="3"/>
+      <node ref="RLY1" pin="5"/>
+    </net>
+    <net code="2" name="Net-(RLY2-Pad4)">
+      <node ref="RLY2" pin="4"/>
+    </net>
+    <net code="3" name="/GND_SW1">
+      <node ref="RLY1" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="/GND_SW2">
+      <node ref="J1" pin="3"/>
+      <node ref="RLY2" pin="1"/>
+    </net>
+    <net code="5" name="/LED">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="6" name="/SW">
+      <node ref="R1" pin="2"/>
+      <node ref="RLY2" pin="2"/>
+      <node ref="RLY1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(RLY1-Pad4)">
+      <node ref="RLY1" pin="4"/>
+    </net>
+  </nets>
+</export>
